@@ -1,16 +1,29 @@
 body{
-    background-color: rgb(226, 214, 214);
+    background-color: rgb(255, 255, 255);
     margin: 0px;
+    background: radial-gradient();
 }
 
-.hero {
-    background-image: url(../Cenrourinha-flor.jpg);
-    height: 600px;
-    background-size: 100%;
-    background-position: bottom;
-    border-style: dotted;
+
+img{
+    
+    border-radius: 40px;
     border-color: yellow;
-    border-width: 15px;
+    border-width: 13px; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    min-width: 1310;
+    max-width: 600;
+    border-style: dotted;
+    text-align: center;
+    border: 5px solid #ff5e00;
+    position: absolute;
+    width: 1252px;
+    height: 619px;
+    left: 46px;
+    top: 207px;
 }
 
 .hero-content{
@@ -18,14 +31,214 @@ body{
     color: white;
     margin-top: 150px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .hero-content h1{
     text-transform: uppercase;
-    font-size: 30px;
-    text-shadow: 3px 3px 8px rgb(251, 255, 1);
+    font-size: 35px;
+    text-shadow: 6px 3px 8px rgb(255, 238, 0);
+    font-family: 'Bubblegum Sans', cursive;
+    bottom: 680px;
+    position: absolute;bottom: 170px; right: 340px;
+    border: 10px;
+    border-style: so;
 }
 
 .hero-content p{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 25px;
+    bottom: 670px;
+    text-shadow: 6px 3px 8px rgb(255, 238, 0);
+    position: absolute;bottom: 100px; right: 480px;
+}
+
+
+.content section{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+
+.tela{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1252px;
+    height: 130px;
+    left: 46px;
+    top: 33px;
+    
+    border: 4px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    background: radial-gradient(rgb(255, 30, 0), rgba(255, 238, 0, 0.973)) no-repeat;
+    background-size: 300%;
+    animation: fundo 3s ease infinite;
+    
+}
+
+
+@keyframes fundo {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+
+}
+
+.tela li{
+    /* position: relative; */
+    text-shadow: 6px 3px 8px rgb(0, 0, 0);
+    min-width: 320;
+    max-width: 800;
+}
+ul{
+    /* position: static; */
+    top: 100px;
+    bottom: 500px;
+    margin-left: -20px;
+    font-family: 'Bubblegum Sans', cursive;
+    min-width: 320;
+    max-width: 800;
+    
+}
+
+nav{
+    bottom:10px;
+    border-radius: 10px;
+}
+
+main{
+    margin: auto;
+
+}
+
+.imagem{
+    border-radius: 60px;
+}
+
+
+.sobreobebe {
+    position: absolute;
+    width: 386px;
+    height: 65px;
+    left: 40px;
+    top: 23px;
+    
+    font-family: 'Comic Sans', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    background:radial-gradient(rgb(255, 0, 0),rgb(255, 94, 0));
+    color: #ffffff;
+    text-shadow: 6px 5px 8px rgb(0, 0, 0);
+    border-radius: 40px;
+    
+}
+
+@keyframes cenou{
+
+    from {background-color: rgba(0, 0, 0, 0); top: 190px;}
+    to {background-color:rgba(0, 0, 0, 0); top: 220px;}
+    
+}
+
+@keyframes cenou1{
+
+    from {background-color: rgba(0, 0, 0, 0); top: 190px;}
+    to {background-color:rgba(0, 0, 0, 0); top: 220px;}
+    
+}
+
+@keyframes cenou2{
+
+    from {background-color: rgba(0, 0, 0, 0); left: 40px;}
+    to {background-color:rgba(0, 0, 0, 0); left: 70px;}
+
+}
+.cenoura{
+    position:absolute;
+    top: 80px;
+
+
+
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    height: 40px;
+    animation-name: cenou;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin: 0px;
+    font-size: 33px;
+}
+.cenoura1{
+    position:absolute;
+    top: -70px;
+    left: 1305px;
+
+    width: 40px;
+    background-color: rgb(255, 0, 0);
+    height: 40px;
+    animation-name: cenou1;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin: 0px;
+    font-size: 33px;
+}
+
+.cenoura2{
+    position:absolute;
+    left: -300px;
+    top: 162px;
+    width: auto;
+    background-color: rgba(255, 0, 0, 0);
+    height: 40px;
+    animation-name: cenou2;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin: 0px;
+    font-size: 33px;
+    
+}
+
+@media screen and (max-width: 650px){
+    
+        .hero-content h1{
+            position: absolute;bottom: 300px; right: 20px;
+            font-size: 23px;
+    }
+        .hero-content p{
+            position: absolute;bottom: 250px; right: 90px;
+            font-size: 19px;
+        }
+        .tela{
+            width: auto;
+        }
+}
+
+
+.sobreobebe:hover {
+    position: absolute;
+    width: 400px;
+    height: 80px;
+    left: 40px;
+    top: 23px;
+    
+    font-family: 'Comic Sans', cursive;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 35px;
+    background:radial-gradient(rgb(255, 0, 0),rgb(255, 94, 0));
+    color: #ffffff;
+    text-shadow: 6px 5px 8px rgb(255, 238, 0);
+    border-radius: 40px;
+    
 }
